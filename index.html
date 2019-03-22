@@ -9,10 +9,79 @@
     <title>QUESTION</title>
 </head>
 <body>
-    <div id="q-wrapper">
-        <header >
-            <h1 class="ws-logo"><img src="./img/header_logo.png"></h1>
+    <div id="all-wrapper"><!-- S -->
+        <header id="q-hd">
+            <a href="#"><img class="ws-logo" src="./img/header_logo.png"></a>
+            <nav class="ws-nav">
+                <ul>
+                    <li><a href="#">광고수익</a></li>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">1:1문의</a></li>
+                    <li><a href="#">게임결과</a></li>
+                </ul>
+            </nav>
+            <div class="ws-user">
+                <span>WS1234님</span>
+                <button>로그아웃</button>
+            </div>
         </header>
-    </div>
+        <div id="board-wrap">
+            <div class="all">
+                <span class="sub-name">전체</span>
+                <ul class="tab-list">
+                    <li><a href="#">전체</a></li>
+                    <li><a href="#">앱기능</a></li>
+                    <li><a href="#">거래소</a></li>
+                    <li><a href="#">게임존</a></li>
+                    <li><a href="#">기타</a></li>
+                </ul>
+            </div>
+            <div id="borad-stoty">
+                <div class="small-cataloge">
+                    <div class="title">제목</div>
+                    <div class="written-date">작성일</div>
+                    <div class="finished-answer">답변여부</div>
+                </div>
+                <div class="list-wrap">
+                    <div class="list-box">
+                        <div class="q-list">
+                            <p>공지사항 &#124; No.48</p>
+                            <a href="#">월드스폰 Ver 3.75 업데이트 및 수정사항</a>
+                        </div>
+                        <span class="written-date">2019.03.15</span>
+                    </div>
+                    <div class="list-box">
+                        <div class="q-list">
+                            <p>공지사항 &#124; No.47</p>
+                            <a href="#">갤럭시 8 이상 앱 오류 관련 공지사항</a>
+                        </div>
+                        <span class="written-date">2019.03.15</span>
+                        <button class="confirm finished-answer">답변완료</button>
+                    </div>
+                </div>
+                <div class="cata-ft">
+                    <div class="list-num">
+                        <button class="list-forward"></button>
+                        <button class="list-previous"></button>
+                        <ul class="cata-num-list">
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                        </ul>
+                        <button class="list-next"></button>
+                        <button class="list-backward"></button>
+                    </div>
+                </div>
+                <div class="more-question">
+                    <span>만족스러운 답변을 찾지 못하셨나요?</span>
+                    <span>1:1문의를 통해 직접 질문하세요.</span>
+                    <button class="ask-question">1:1문의</button>
+                </div>
+            </div>
+        </div>
+    </div><!-- E -->
 </body>
 </html>
